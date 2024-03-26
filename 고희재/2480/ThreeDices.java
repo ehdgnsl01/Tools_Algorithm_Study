@@ -1,8 +1,3 @@
-package If;
-
-import java.util.Arrays;
-import java.util.Scanner;
-
 public class ThreeDices {
     public static void main(String[] main){
 
@@ -32,5 +27,4 @@ public class ThreeDices {
             System.out.println("상금은" + (max * 100) + "원 입니다.");
         }
     }
-
 }
