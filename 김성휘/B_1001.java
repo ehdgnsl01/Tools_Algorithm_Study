@@ -1,5 +1,6 @@
 package 제출O;
 
+
 import java.util.Scanner; // Scanner를 사용하기 위해
 
 public class B_1001 {

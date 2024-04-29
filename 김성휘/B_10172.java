@@ -1,5 +1,6 @@
 package 제출O;
 
+
 public class B_10172 {
 	public static void main(String[] args) {
 		
