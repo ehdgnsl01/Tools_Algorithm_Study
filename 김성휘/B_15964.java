@@ -1,4 +1,5 @@
-package 제출X;
+package 제출O;
+
 
 import java.util.Scanner;
 
@@ -8,7 +9,7 @@ public class B_15964 {
 		Scanner scanner = new Scanner(System.in);
 		
 		// 처음에 int로 해서 30점 나옴
-		// 범위를 보니 10^9 넘을 수 있으므로 Long을 사용
+		// 범위를 보니 10^9 넘을 수 있으므로 long을 사용
 		long A = scanner.nextLong();
 		long B = scanner.nextLong();
 		

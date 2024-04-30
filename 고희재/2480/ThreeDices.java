@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class ThreeDices {
     public static void main(String[] main){
 
