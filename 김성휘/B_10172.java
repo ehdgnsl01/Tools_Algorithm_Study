@@ -1,4 +1,5 @@
-package Baek_Joon_새싹;
+package 제출O;
+
 
 public class B_10172 {
 	public static void main(String[] args) {

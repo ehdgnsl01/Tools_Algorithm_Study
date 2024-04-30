@@ -1,4 +1,5 @@
-package Baek_Joon_새싹;
+package 제출O;
+
 
 import java.util.Scanner; // Scanner를 사용하기 위해
 

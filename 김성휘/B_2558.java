@@ -1,4 +1,5 @@
-package 제출X;
+package 제출O;
+
 
 import java.util.Scanner;
 
