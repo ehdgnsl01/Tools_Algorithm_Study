@@ -5,7 +5,7 @@ int main() {
  
 	int n;
 	cin >> n;
-    int min=1000001,max=-1000001;
+    int min=1000000,max=-1000000;
  
 	int a;
 
@@ -13,7 +13,7 @@ int main() {
 		cin >> a;
         if(a<min)
             min = a;
-        else if(a>max)
+        if(a>max)
             max = a;
 	}
     cout << min <<" "<< max;
