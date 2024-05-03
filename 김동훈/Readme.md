@@ -1,15 +1,2 @@
-## 자기소개
-
-20학번 김동훈입니다.
-
-## 사용할 언어
-
-python , Java , C++
-
-## 전화번호
-
-010-6293-7082
-
-## 하고싶은 말
-
-잘 부탁드립니다!
+[![Solved.ac
+프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=wke1wke1)](https://solved.ac/ehdgnsl01)
