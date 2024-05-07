@@ -3,8 +3,12 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/10798" isTestSource="false" packagePrefix="TwoDimensionalArray" />
       <sourceFolder url="file://$MODULE_DIR$/11720" isTestSource="false" packagePrefix="String" />
+      <sourceFolder url="file://$MODULE_DIR$/1546" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2444" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/2480" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/5622" isTestSource="false" packagePrefix="String" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
