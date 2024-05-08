@@ -9,8 +9,8 @@ int main(){
     for (int i=0;i<10;i++){
         cin >> a[i];
         a[i] = a[i]%42;
-        for (int j=1;j<=42;j++){
-            if(a[i]==j) result[j-1]++;
+        for (int j=0;j<42;j++){
+            if(a[i]==j) result[j]++;
         }
     }
     for(int i=0;i<42;i++){
