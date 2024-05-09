@@ -5,9 +5,9 @@ int main(){
     int t;
     string str;
     cin >> t ;
-    for(int i=0;i<t;i++){
-        getline(cin,str);
-        cout << str.front() << str.back() ; 
-        str.clear();
+    while(t--){
+        cin >> str;
+        cout << str[0] << str[str.size()-1] << endl;
+        str.clear();       
     }
 }
