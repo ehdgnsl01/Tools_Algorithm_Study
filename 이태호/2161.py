@@ -9,7 +9,7 @@ while len(card) != 1: # 마지막 1장남을 때까지
     del card[0] # 맨위에 거 밑으로 넣을 때 복사해서 넣었으니 제거
 
 
-for j in wasted_card: # 출력
+for j in wasted_card: # 출력 #
     print(j ,end=' ')
 print(card[0])
 
