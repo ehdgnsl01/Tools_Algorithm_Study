@@ -1,0 +1,27 @@
+package Baek_Joon;
+
+import java.util.Scanner;
+
+public class B_1476_날짜계산 {
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int E = sc.nextInt();
+		int S = sc.nextInt();
+		int M = sc.nextInt();
+		
+		int year = 0;
+		
+		// year = e*15 + E(나머지) = s*28 + S(나머지) = m*19 + M(나머지)
+		// (year - E) % 15 = 0, (year - S) % 28 = 0, (year - M) % 19 = 0 
+		while(true) {
+			
+			year++;
+			
+			if((year - E) % 15 == 0 && (year - S) % 28 == 0 && (year - M) % 19 == 0)	break;
+		}
+		
+		System.out.print(year);
+	}
+}
