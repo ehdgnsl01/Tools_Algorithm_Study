@@ -8,6 +8,6 @@ int main(){
     stringstream ss(str);
     string str2;
     int count = 0;
-    while (ss>>str2) count +=1;
+    while (ss>>str2) count++;
     cout << count;
 }
