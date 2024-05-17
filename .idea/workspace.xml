@@ -27,12 +27,17 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;com.intellij.ide.FileNotInSourceRootChecker.no.check&quot;: &quot;true&quot;,
+<<<<<<< Updated upstream
     &quot;git-widget-placeholder&quot;: &quot;7-고희재&quot;,
+=======
+    &quot;git-widget-placeholder&quot;: &quot;9-고희재&quot;,
+>>>>>>> Stashed changes
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+<<<<<<< Updated upstream
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Tools_Algorithm_Study" />
@@ -48,6 +53,8 @@
       </method>
     </configuration>
   </component>
+=======
+>>>>>>> Stashed changes
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -69,6 +76,13 @@
       <workItem from="1714987827686" duration="14000" />
       <workItem from="1715072497586" duration="24000" />
       <workItem from="1715072525190" duration="10000" />
+<<<<<<< Updated upstream
+=======
+      <workItem from="1715677675930" duration="15000" />
+      <workItem from="1715677828845" duration="4000" />
+      <workItem from="1715678445134" duration="5000" />
+      <workItem from="1715914711885" duration="9000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
