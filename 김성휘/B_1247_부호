@@ -1,0 +1,26 @@
+import java.util.Scanner;
+import java.math.BigInteger;
+
+public class B_1247_부호 {
+    public static void main(String[] args){
+
+        Scanner sc = new Scanner(System.in);
+        for(int i = 0; i < 3; i++){
+
+            int case_n = sc.nextInt();  // 각 케이스 마다 정수 개수
+            BigInteger sum = BigInteger.ZERO;  // 각 케이스 합
+
+            for(int j = 0; j < case_n; j++){
+
+                BigInteger num = new BigInteger(sc.next());
+                sum = sum.add(num);
+            }
+
+            // sum = 0 -> 0 | sum > 0 -> + | sum < 0 -> -
+            if(sum.equals(BigInteger.ZERO)) System.out.println("0");
+            else if(sum.compareTo(BigInteger.ZERO) > 0) System.out.println("+");
+            else if(sum.compareTo(BigInteger.ZERO) < 0) System.out.println("-");
+        }
+    }
+    
+}

@@ -1,0 +1,27 @@
+package Baek_Joon;
+
+public class B_4673_셀프넘버 {
+	public static void main(String[] args) {
+		
+		int a, b, c, d;
+		int[] check = new int[10001];
+		
+		for(int i = 1; i <= 10000; i++) {
+			
+			a = i / 1000;
+			b = (i / 100) % 10;
+			c = (i / 10) % 10;
+			d = i % 10;
+			
+			if(i + a + b + c + d <= 10000)
+				check[i+a+b+c+d] = 1;
+		}
+		
+		for(int i = 1; i <= 10000; i++) {
+			
+			if(check[i] != 1)
+				System.out.println(i);
+		}
+	}
+
+}
