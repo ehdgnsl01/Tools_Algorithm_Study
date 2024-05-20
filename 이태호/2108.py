@@ -21,7 +21,7 @@ if len(numbers) == 1:
 else:
     frequent = sorted(numbers)[1]
 
-mean = round(total / N)
+mean = round(total / N + 0.000001)
 median = num[(N - 1) // 2]
 rrange = num[-1] - num[0]
 
