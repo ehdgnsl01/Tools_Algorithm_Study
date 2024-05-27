@@ -1,0 +1,25 @@
+package Baek_Joon;
+
+import java.util.Scanner;
+
+public class B_10988_팰린드롬인지확인하기 {
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		String str = sc.next();
+		sc.close();
+		
+		int len = str.length();
+		int check = 1;
+		for(int i = 0; i < len/2; i++) {
+			
+			if(str.charAt(i) != str.charAt(len-1 - i)) {
+				check = 0;
+			}
+		}
+		
+		System.out.print(check);
+	}
+
+}
